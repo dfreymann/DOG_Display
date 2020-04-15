@@ -1,3 +1,5 @@
+# dmf 4.15.20 
+
 # ignore backup files 
 *#*
 
@@ -5,7 +7,58 @@
 *bom*
 *BOM*
 
-# eagle configuration file
-*.epf
+# The following obtained from the github/gitgnore repository -
+#
+# Ignore list for Eagle, a PCB layout tool
+# Source: https://github.com/github/gitignore/blob/master/Eagle.gitignore#L1
 
+# Eagle project file
+# It contains a serial number and references to the file structure
+# on your computer.
+# comment the following line if you want to have your project file included.
+eagle.epf
+
+# Backup files
+*.s#?
+*.b#?
+*.l#?
+*.b$?
+*.s$?
+*.l$?
+
+# Autorouter files
+*.pro
+*.job
+
+# CAM files
+*.$$$
+*.cmp
+*.ly2
+*.l15
+*.sol
+*.plc
+*.stc
+*.sts
+*.crc
+*.crs
+
+*.dri
+*.drl
+*.gpi
+*.pls
+*.ger
+*.xln
+
+*.drd
+*.drd.*
+
+*.s#*
+*.b#*
+
+*.info
+
+*.eps
+
+# file locks introduced since 7.x
+*.lck
 
