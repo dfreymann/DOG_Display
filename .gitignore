@@ -1,0 +1,11 @@
+# ignore backup files 
+*#*
+
+# ignore BOMs 
+*bom*
+*BOM*
+
+# eagle configuration file
+*.epf
+
+
